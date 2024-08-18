@@ -1,0 +1,48 @@
+.container2 {
+    width: 700px; /* Adjust width as needed */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 30px; /* Increased padding for visual separation */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    margin-top: 190px; /* Added margin-top to move form down */
+  }
+  
+  .h2 {
+    text-align: center;
+    margin-bottom: 20px; /* Increased margin for heading */
+  }
+  
+  .form {
+    display: flex; /* Use flexbox for responsive layout */
+    flex-wrap: wrap; /* Allow form elements to wrap on smaller screens */
+    gap: 15px; /* Adjusted gap for balanced spacing between columns */
+  }
+  
+  .inputfield{
+    margin-left: auto;
+    height: 50px;
+    width: 95%;
+  }
+  .half{
+    width : 108%; 
+    font-size: 19px;
+
+  }  
+
+.submit1{
+    display:flex;
+    justify-content: center;
+    margin-left: 150px;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    color: #fff;
+    background: #4c00b4;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+    
+}

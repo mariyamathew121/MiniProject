@@ -1,0 +1,15 @@
+.patient-details-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  .patient-details-container div {
+    display: flex;
+    align-items: center;
+  }
+  
+  .patient-details-container label {
+    font-weight: bold;
+    margin-right: 10px;
+  }

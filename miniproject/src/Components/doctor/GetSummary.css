@@ -1,0 +1,30 @@
+.container {
+    width: 100%;
+    max-width: 800px; /* Adjust as needed */
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .patient-details-container {
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    padding: 20px 40px; /* Increased padding */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .patient-details-container label {
+    font-weight: bold;
+    display: block; /* Ensures label and paragraph are on separate lines */
+  }
+  
+  .patient-details-container p {
+    margin: 8px 0; /* Adjust margin as needed */
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 600px) {
+    .container {
+      padding: 10px;
+    }
+  }
+  
